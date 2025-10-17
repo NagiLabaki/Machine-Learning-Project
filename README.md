@@ -63,6 +63,6 @@ We used the following features in a linear regression model as a preliminary mod
 
 - LapsBeforePit: average laps per tire stint.
 
--LapNumber²: captures nonlinear performance drop due to tire degradation.
+- LapNumber²: captures nonlinear performance drop due to tire degradation.
 
 This initial experiments achieved R² ≈ 0.67, capturing much of the lap-time variability while highlighting areas for model improvement.
