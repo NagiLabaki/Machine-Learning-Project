@@ -51,18 +51,18 @@ We did some analysis and experimentation with the dataset which you can find in 
 
 We plan to implement multiple supervised learning models to predict lap times as continuous values.
 
-Linear Regression (Baseline): interpretable model to estimate feature influence on lap time.
+- Linear Regression (Baseline): interpretable model to estimate feature influence on lap time.
 
-Neural Networks: capture nonlinear dependencies between features (lap evolution, tire wear, etc.).
+- Neural Networks: capture nonlinear dependencies between features (lap evolution, tire wear, etc.).
 
-Tree-Based Models (Random Forest): learn feature interactions and rank variable importance.
+- Tree-Based Models (Random Forest): learn feature interactions and rank variable importance.
 
 We used the following features in a linear regression model as a preliminary model:
 
-FuelLoadProxy – proportion of remaining fuel per lap.
+- FuelLoadProxy: proportion of remaining fuel per lap.
 
-LapsBeforePit – average laps per tire stint.
+- LapsBeforePit: average laps per tire stint.
 
-LapNumber² – captures nonlinear performance drop due to tire degradation.
+-LapNumber²: captures nonlinear performance drop due to tire degradation.
 
 This initial experiments achieved R² ≈ 0.67, capturing much of the lap-time variability while highlighting areas for model improvement.
